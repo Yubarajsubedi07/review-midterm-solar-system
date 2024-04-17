@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ac2828;
+}
+
+h2 {
+    color: #5adb1e;
+}
+
+p {
+    color: hsl(0, 94%, 51%);
+    line-height: 1.5;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#sun img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.planet img,
+.moon img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
